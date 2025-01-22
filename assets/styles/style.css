@@ -149,7 +149,7 @@ li {
 /* -- hero section css start here -- */
 
 .hero-section {
-  margin: 10.5rem 0;
+  margin: 0 10.5rem 0 8rem;
 }
 
 .hero-section-box {
@@ -194,13 +194,20 @@ li {
 
 /* -- ready to build funtion start --  */
 
+.ready-build-sec {
+  position: relative;
+  bottom: -9.5rem;
+  z-index: 10;
+}
+
 .ready-to-build-main {
   width: 50%;
-  margin: 2rem auto;
+  margin: 0 auto;
   text-align: center;
   box-shadow: 2.4px 4px 20px rgba(0, 0, 0, 0.1);
   padding: 5rem;
   border-radius: 2rem;
+  background: #ffffff;
 }
 
 .ready-to-build-box h1 {
@@ -217,8 +224,9 @@ li {
 
 .footer-section-box {
   background-color: #00252e;
-  padding-top: 10rem;
+  padding-top: 15rem;
   padding-bottom: 5rem;
+  z-index: -1;
 }
 
 .footer-content-main {
