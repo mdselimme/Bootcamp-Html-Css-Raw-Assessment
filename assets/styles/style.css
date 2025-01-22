@@ -21,6 +21,14 @@
   font-family: "Open Sans", serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
 /* -- Default css end -- */
 
 /* -- Common Styles and Repeat Css Start --  */
@@ -204,3 +212,11 @@
 }
 
 /* -- ready to build funtion start -- */
+
+/* -- Footer section start here -- */
+
+.copyright-text {
+  text-align: right;
+}
+
+/* -- Footer section end here -- */
