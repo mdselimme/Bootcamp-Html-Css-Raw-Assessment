@@ -9,7 +9,7 @@
 }
 
 .container {
-  width: 90rem;
+  max-width: 90rem;
   margin: 0 auto;
 }
 
@@ -83,7 +83,6 @@ li {
   justify-content: space-between;
   align-items: center;
   padding: 3rem 0.5rem;
-  z-index: 5;
 }
 
 .header-button button {
@@ -149,7 +148,7 @@ li {
 /* -- hero section css start here -- */
 
 .hero-section {
-  margin: 0 10.5rem 0 8rem;
+  margin: 9rem 0 6rem 0;
 }
 
 .hero-section-box {
@@ -272,13 +271,15 @@ li {
 }
 
 .footer-social-link {
-  display: flex;
   margin-top: 1.6rem;
 }
-
 .footer-social-link li {
-  display: inline;
-  margin-right: 2rem;
+  display: inline-block;
+  margin-right: 1.6rem;
+}
+
+.footer-social-link li:last-child {
+  margin-right: 0;
 }
 
 .footer-social-link li a {
@@ -305,3 +306,90 @@ li {
 }
 
 /* -- Footer section end here -- */
+
+/* -- Responsive Css Start Here -- */
+
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 92%;
+  }
+  .header-logo img {
+    width: 200px;
+  }
+  .banner-header-main {
+    height: auto;
+  }
+  .header-button button {
+    padding: 0.5rem 3rem;
+    border-radius: 5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  br {
+    display: none;
+  }
+  .banner-text {
+    text-align: center;
+  }
+  .banner-text h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-bottom: 1.1rem;
+  }
+  .banner-content-box {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 1.2rem 0 1.8rem 0;
+  }
+  .hero-section {
+    margin: 8rem 0 3rem 0;
+  }
+  .hero-section-box {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+    margin-top: 2.4rem;
+    padding: 1rem;
+  }
+  .hero-section-image {
+    grid-row: 1;
+  }
+  .hero-section-left {
+    padding: 1.5rem;
+    text-align: center;
+  }
+  .hero-section-left h2 {
+    font-size: 1.7rem;
+  }
+  .ready-to-build-main {
+    width: 85%;
+    padding: 1.7rem;
+  }
+  .ready-to-build-box h1 {
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+  .ready-to-build-box .common-pink-button {
+    padding: 0.9rem 3.1rem;
+    background: hsl(322, 100%, 66%);
+    border-radius: 4rem;
+    font-size: 0.9rem;
+  }
+  .ready-build-sec {
+    bottom: -5.55rem;
+  }
+  .footer-section-box {
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+  }
+  .footer-content-main {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-social-link {
+    text-align: center;
+  }
+  .copyright-text {
+    margin-top: 2rem;
+    text-align: center;
+  }
+}
+
+/* -- Responsive Css End Here -- */
