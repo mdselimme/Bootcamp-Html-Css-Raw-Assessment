@@ -10,6 +10,11 @@
       href="./assets/images/favicon-32x32.png"
       type="image/x-icon"
     />
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
     <!-- css file link here  -->
     <link rel="stylesheet" href="./assets/styles/style.css" />
   </head>
@@ -132,52 +137,62 @@
 
     <!-- -- footer section start here --  -->
 
-    <footer>
+    <footer class="footer-section-box">
       <section class="container">
-        <div class="footer-content-main">
+        <div class="footer-content-main font-pop">
           <div class="footer-single-components">
-            <img src="./assets/images/logo.svg" alt="footer-logo" />
+            <img
+              class="footer-logo"
+              src="./assets/images/footer-logo.png"
+              alt="footer-logo"
+            />
             <ul>
-              <li>
-                <span></span>
-                <p>
-                  It takes no time at all to integrate Huddle with your app's
-                  authentication solution. This means, once signed in to your
-                  app, your users can start chatting immediately.
-                </p>
+              <li class="footer-address">
+                <img
+                  src="./assets/images/icon-location.svg"
+                  alt="icon-location"
+                />
+                <a href="#">Mirpur DOHS, Dhaka - 1100</a>
+              </li>
+              <li class="footer-address">
+                <img src="./assets/images/icon-phone.svg" alt="icon-phone" />
+                <a href="tel:+8801562146654">+8801562146654</a>
+              </li>
+              <li class="footer-address">
+                <img src="./assets/images/icon-email.svg" alt="icon-email" />
+                <a href="mailto:huddle@gmail.com">huddle@gmail.com</a>
               </li>
             </ul>
           </div>
           <div class="footer-single-components">
-            <ul>
+            <ul class="footer-link">
               <li><a href="#">About Us</a></li>
               <li><a href="#">What we do</a></li>
               <li><a href="#">FAQ</a></li>
             </ul>
           </div>
           <div class="footer-single-components">
-            <ul>
+            <ul class="footer-link">
               <li><a href="#">Career</a></li>
               <li><a href="#">Blog</a></li>
               <li><a href="#">Contact Us</a></li>
             </ul>
           </div>
           <div class="footer-single-components">
-            <ul>
+            <ul class="footer-social-link">
               <li>
-                <img src="./assets/images/icon-phone.svg" alt="social-image" />
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
               </li>
               <li>
-                <img
-                  src="./assets/images/icon-location.svg"
-                  alt="social-image"
-                />
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
               </li>
-              <li><img src="" alt="social-image" /></li>
+              <li>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
             </ul>
           </div>
         </div>
-        <div class="copyright-text">
+        <div class="copyright-text font-pop">
           <p>&copy; Copyright 2018 || All right reserved by Huddle</p>
         </div>
       </section>

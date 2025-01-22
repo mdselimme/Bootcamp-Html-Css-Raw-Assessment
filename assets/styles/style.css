@@ -215,8 +215,85 @@ li {
 
 /* -- Footer section start here -- */
 
+.footer-section-box {
+  background-color: #00252e;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+.footer-content-main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-logo {
+  width: 13rem;
+}
+
+.footer-address {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.footer-address img {
+  width: 1.5rem;
+  margin-right: 1rem;
+}
+
+.footer-address a {
+  font-size: 0.9rem;
+  color: hsl(193, 100%, 96%);
+  font-weight: 400;
+}
+
+.footer-link li {
+  margin-top: 1.6rem;
+}
+
+.footer-link li a {
+  font-size: 0.9rem;
+  color: hsl(193, 100%, 96%);
+  font-weight: 400;
+  transition: 0.3s;
+}
+
+.footer-link li a:hover {
+  text-decoration: underline;
+}
+
+.footer-social-link {
+  display: flex;
+  margin-top: 1.6rem;
+}
+
+.footer-social-link li {
+  display: inline;
+  margin-right: 2rem;
+}
+
+.footer-social-link li a {
+  color: hsl(193, 100%, 96%);
+  display: block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 1rem;
+  border: 1px solid hsl(193, 100%, 96%);
+  transition: ease-in 0.2s;
+}
+
+.footer-social-link li a:hover {
+  color: #ff52bf;
+  border-color: #ff52bf;
+}
+
 .copyright-text {
   text-align: right;
+  color: hsl(193, 100%, 96%);
 }
 
 /* -- Footer section end here -- */
