@@ -33,7 +33,20 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
 }
+
+.banner-header-main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: hsla(192, 100%, 96%, 0.527);
+  z-index: -1;
+}
+
 /* -- banner section css end here --   */
 
 /* -- header section css start here  */
@@ -42,6 +55,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 3rem 0.5rem;
+  z-index: 5;
 }
 
 .header-button button {
