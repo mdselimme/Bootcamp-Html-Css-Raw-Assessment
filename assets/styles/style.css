@@ -103,7 +103,7 @@
 }
 
 .banner-text button {
-  padding: 0.8rem 5rem;
+  padding: 1rem 5rem;
   border: none;
   background: hsl(322, 100%, 66%);
   border-radius: 5rem;
@@ -124,3 +124,49 @@
 /* -- banner content section end here --  */
 
 /* -- header and banner section styles start here -- */
+
+/* -- hero section css start here -- */
+
+.hero-section {
+  margin: 10.5rem 0;
+}
+
+.hero-section-box {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  align-items: center;
+  padding: 4rem;
+  box-shadow: 2.4px 4px 39px rgba(0, 0, 0, 0.2);
+  border-radius: 2rem;
+  margin: 3rem 0;
+}
+
+.hero-section-left {
+  padding: 4rem;
+}
+
+.hero-section-left h2 {
+  font-weight: 600;
+  font-size: 2.2rem;
+  text-transform: capitalize;
+  margin-bottom: 1.2rem;
+  color: hsl(192, 100%, 9%);
+}
+
+.hero-section-left p {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 2.2rem;
+  margin-bottom: 1.9rem;
+  color: hsl(208, 11%, 55%);
+}
+
+.hero-section-image {
+  padding: 2rem;
+}
+
+.hero-section-image img {
+  width: 100%;
+}
+
+/* -- hero section css end here -- */
