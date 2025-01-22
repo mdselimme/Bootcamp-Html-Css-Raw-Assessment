@@ -23,6 +23,26 @@
 
 /* -- Default css end -- */
 
+/* -- Common Styles and Repeat Css Start --  */
+.common-pink-button {
+  padding: 1rem 5rem;
+  border: none;
+  background: hsl(322, 100%, 66%);
+  border-radius: 5rem;
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 2.4px 4px 39px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: ease 0.3s;
+}
+
+.common-pink-button:hover {
+  background: hsla(322, 100%, 66%, 0.774);
+}
+
+/* -- Common Styles and Repeat Css End --  */
+
 /* -- header and banner section styles start here --  */
 
 /* -- banner section css start here --   */
@@ -68,6 +88,11 @@
   font-weight: 700;
   box-shadow: 2.4px 4px 39px rgba(0, 0, 0, 0.2);
   cursor: pointer;
+  transition: ease 0.3s;
+}
+
+.header-button button:hover {
+  box-shadow: 2.4px 4px 39px rgba(0, 0, 0, 0.4);
 }
 
 /* -- header section css end here  */
@@ -100,18 +125,6 @@
   line-height: 2.2rem;
   margin-bottom: 1.9rem;
   color: hsl(208, 11%, 55%);
-}
-
-.banner-text button {
-  padding: 1rem 5rem;
-  border: none;
-  background: hsl(322, 100%, 66%);
-  border-radius: 5rem;
-  font-size: 1.1rem;
-  color: #fff;
-  font-weight: 600;
-  box-shadow: 2.4px 4px 39px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
 }
 
 .banner-image {
@@ -170,3 +183,24 @@
 }
 
 /* -- hero section css end here -- */
+
+/* -- ready to build funtion start --  */
+
+.ready-to-build-main {
+  width: 50%;
+  margin: 2rem auto;
+  text-align: center;
+  box-shadow: 2.4px 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 5rem;
+  border-radius: 2rem;
+}
+
+.ready-to-build-box h1 {
+  font-weight: 600;
+  font-size: 2.2rem;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+  color: hsl(192, 100%, 9%);
+}
+
+/* -- ready to build funtion start -- */
