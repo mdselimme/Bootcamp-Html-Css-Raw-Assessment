@@ -22,3 +22,28 @@
 }
 
 /* -- Default css end -- */
+
+/* -- header and banner section styles start here --  */
+
+/* -- banner section css start here --   */
+.banner-header-main {
+  background-image: url("../images/bg-hero-desktop.svg");
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* -- banner section css end here --   */
+
+/* -- header section css start here  */
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5px;
+}
+
+/* -- header section css end here  */
+
+/* -- header and banner section styles start here -- */
