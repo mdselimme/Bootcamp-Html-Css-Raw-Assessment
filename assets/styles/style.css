@@ -148,7 +148,7 @@ li {
 /* -- hero section css start here -- */
 
 .hero-section {
-  margin: 9rem 0 6rem 0;
+  margin: 9rem 0 3rem 0;
 }
 
 .hero-section-box {
@@ -309,6 +309,7 @@ li {
 
 /* -- Responsive Css Start Here -- */
 
+/* Responsive Css for Under 576px device  */
 @media screen and (max-width: 576px) {
   .container {
     max-width: 92%;
@@ -341,7 +342,7 @@ li {
     padding: 1.2rem 0 1.8rem 0;
   }
   .hero-section {
-    margin: 8rem 0 3rem 0;
+    margin: 8rem 0 2rem 0;
   }
   .hero-section-box {
     grid-template-columns: repeat(1, 1fr);
@@ -389,6 +390,44 @@ li {
   .copyright-text {
     margin-top: 2rem;
     text-align: center;
+  }
+}
+/* Responsive Css for Under 375px device  */
+@media screen and (max-width: 375px) {
+  .header-logo img {
+    width: 150px;
+  }
+  .banner-content-box {
+    padding: 0.5rem 0px 0.8rem;
+  }
+  .header-box {
+    padding: 1.7rem 0.5rem;
+  }
+  .header-button button {
+    padding: 0.5rem 2.5rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+  .banner-text h1 {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .common-pink-button {
+    padding: 0.7rem 2.5rem;
+    font-size: 1rem;
+    border-radius: 4.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  .hero-section-left p {
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin-bottom: 1.4rem;
+  }
+
+  .copyright-text p {
+    font-size: 0.8rem;
   }
 }
 
