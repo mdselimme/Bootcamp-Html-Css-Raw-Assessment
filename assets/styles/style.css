@@ -137,6 +137,7 @@ li {
 .banner-image {
   padding: 2rem;
 }
+
 .banner-image img {
   max-width: 100%;
 }
@@ -273,6 +274,7 @@ li {
 .footer-social-link {
   margin-top: 1.6rem;
 }
+
 .footer-social-link li {
   display: inline-block;
   margin-right: 1.6rem;
@@ -314,105 +316,132 @@ li {
   .container {
     max-width: 92%;
   }
+
   .header-logo img {
     width: 200px;
   }
+
   .banner-header-main {
     height: auto;
   }
+
   .header-button button {
     padding: 0.5rem 3rem;
     border-radius: 5rem;
     font-size: 0.9rem;
     font-weight: 600;
   }
+
   br {
     display: none;
   }
+
   .banner-text {
     text-align: center;
   }
+
   .banner-text h1 {
     font-size: 2rem;
     line-height: 3rem;
     margin-bottom: 1.1rem;
   }
+
   .banner-content-box {
     grid-template-columns: repeat(1, 1fr);
     padding: 1.2rem 0 1.8rem 0;
   }
+
   .hero-section {
     margin: 8rem 0 2rem 0;
   }
+
   .hero-section-box {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 1rem;
     margin-top: 2.4rem;
     padding: 1rem;
   }
+
   .hero-section-image {
     grid-row: 1;
   }
+
   .hero-section-left {
     padding: 1.5rem;
     text-align: center;
   }
+
   .hero-section-left h2 {
     font-size: 1.7rem;
   }
+
   .ready-to-build-main {
     width: 85%;
     padding: 1.7rem;
   }
+
   .ready-to-build-box h1 {
     font-weight: 700;
     font-size: 1.2rem;
   }
+
   .ready-to-build-box .common-pink-button {
     padding: 0.9rem 3.1rem;
     background: hsl(322, 100%, 66%);
     border-radius: 4rem;
     font-size: 0.9rem;
   }
+
   .ready-build-sec {
     bottom: -5.55rem;
   }
+
   .footer-section-box {
     padding-top: 10rem;
     padding-bottom: 5rem;
   }
+
   .footer-content-main {
     grid-template-columns: repeat(1, 1fr);
   }
+
   .footer-social-link {
     text-align: center;
   }
+
   .copyright-text {
     margin-top: 2rem;
     text-align: center;
   }
 }
-/* Responsive Css for Under 375px device  */
-@media screen and (max-width: 375px) {
+
+/* Responsive Css for Under 428px device  */
+@media screen and (max-width: 428px) {
+
   .header-logo img {
     width: 150px;
   }
+
   .banner-content-box {
     padding: 0.5rem 0px 0.8rem;
   }
+
   .header-box {
     padding: 1.7rem 0.5rem;
   }
+
   .header-button button {
     padding: 0.5rem 2.5rem;
     font-size: 0.85rem;
     font-weight: 500;
   }
+
   .banner-text h1 {
     font-size: 1.7rem;
     line-height: 2.5rem;
     margin-bottom: 1rem;
   }
+
   .common-pink-button {
     padding: 0.7rem 2.5rem;
     font-size: 1rem;
@@ -420,6 +449,7 @@ li {
     font-size: 0.9rem;
     font-weight: 500;
   }
+
   .hero-section-left p {
     font-weight: 500;
     font-size: 0.9rem;
@@ -428,6 +458,49 @@ li {
 
   .copyright-text p {
     font-size: 0.8rem;
+  }
+}
+
+/* -- Responsive Css End Here -- */
+/* Responsive Css for Under 345px device  */
+@media screen and (max-width: 345px) {
+  .container {
+    max-width: 96%;
+  }
+
+  .banner-content-box {
+    margin-top: 1.6rem;
+  }
+
+  .header-logo img {
+    width: 140px;
+  }
+
+  .banner-content-box {
+    padding: 0.5rem 0px 0.6rem;
+  }
+
+  .header-box {
+    padding: 1.3rem 0.5rem;
+  }
+
+  .header-button button {
+    padding: 0.4rem 2.2rem;
+  }
+
+  .banner-text h1 {
+    font-size: 1.4rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .common-pink-button {
+    padding: 0.7rem 2.5rem;
+    font-size: 1rem;
+  }
+
+  .hero-section-left p {
+    font-size: 0.7rem;
+    margin-bottom: 1.2rem;
   }
 }
 
